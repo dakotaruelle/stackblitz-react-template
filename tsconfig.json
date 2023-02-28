@@ -3,6 +3,7 @@
     "target": "esnext",
     "module": "ESNext",
     "jsx": "react-jsx",
-    "jsxFragmentFactory": "React.Fragment"
+    "jsxFragmentFactory": "React.Fragment",
+    "jsxFactory": "React.createElement"
   }
 }
