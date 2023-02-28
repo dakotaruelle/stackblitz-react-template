@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { Nav } from './nav';
 
 export function Page2() {

@@ -1,9 +1,10 @@
 import { Button, Divider } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { Fragment } from 'react';
 
 export function Nav() {
   return (
-    <>
+    <Fragment>
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Link
           to="/page-1"
@@ -17,6 +18,6 @@ export function Nav() {
       </div>
 
       <Divider />
-    </>
+    </Fragment>
   );
 }
