@@ -1,3 +1,4 @@
+import * as React from 'react';
 import './style.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Page1 } from './page-1';
